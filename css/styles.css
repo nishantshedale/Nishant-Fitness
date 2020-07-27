@@ -1,0 +1,97 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: url("C:/Users/nisha/OneDrive/Desktop/Web Dev/Projects/Nishant's Fitness/images/bg.jpg");
+  color: white;
+  font-family: "Patua One", cursive;
+}
+.left {
+  /*border: 2px solid red;*/
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  left: 30px;
+}
+.mid {
+  /*border: 2px solid green;*/
+  display: block;
+  width: 37%;
+  margin: 29px auto;
+}
+.right {
+  /*border: 2px solid yellow;*/
+  display: inline-block;
+  position: absolute;
+  top: 30px;
+  right: 22px;
+}
+.navbar {
+  display: inline-block;
+}
+.navbar li {
+  display: inline-block;
+  font-size: 25px;
+}
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  padding: 19px 14px;
+}
+.navbar li a:hover,
+.navbar li a.active {
+  text-decoration: underline;
+  color: #c7c7c7;
+}
+.left img {
+  width: 79px;
+  filter: invert(100%);
+  position: relative;
+  left: 21px;
+}
+.left div {
+  text-align: center;
+  line-height: 0;
+}
+.btn {
+  margin: 0 9px;
+  color: white;
+  background-color: black;
+  padding: 4px 14px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: "Patua One", cursive;
+}
+.btn:hover {
+  background-color: gray;
+}
+.container {
+  border: 2px solid white;
+  margin: 90px 105px;
+  padding: 60px;
+  border-radius: 28px;
+  width: 33%;
+}
+.container h1 {
+  font-size: 180%;
+}
+.form-group input {
+  text-align: center;
+  display: block;
+  width: 275px;
+  border: 2px solid black;
+  padding: 1px;
+  margin: 3px auto;
+  font-size: 16px;
+  border-radius: 5px;
+  font-family: "Patua One", cursive;
+}
+.container h1 {
+  text-align: center;
+}
+.container button {
+  display: block;
+  margin: 7px auto;
+  width: 63%;
+}
